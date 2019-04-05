@@ -13,7 +13,9 @@ namespace PhotoSharingApplication.Controllers
     [ValueReporter]
     public class PhotoController : Controller
     {
-        private IPhotoSharingContext context;
+        //Was private, turned public for now
+        public IPhotoSharingContext context;
+
 
         //Constructors
         public PhotoController()

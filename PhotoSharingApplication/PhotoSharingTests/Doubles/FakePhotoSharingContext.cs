@@ -46,7 +46,7 @@ namespace PhotoSharingTests.Doubles
         {
             Photo item = (from p in this.Photos
                     where p.PhotoID == ID
-                    select p).First();
+                    select p).FirstOrDefault();
  
             return item;
         }
