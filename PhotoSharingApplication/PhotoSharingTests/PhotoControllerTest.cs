@@ -231,11 +231,19 @@ using PhotoSharingApplication.Models;
     {
 
     }
-    [TestMethod]
+    /*[TestMethod]
     public void Test_Add_Favorite_Int_Parameter()
     {
-
-    }
+        context.Photos = new[] {
+                new Photo{ PhotoID = 1, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
+                new Photo{ PhotoID = 2, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
+                new Photo{ PhotoID = 3, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
+                new Photo{ PhotoID = 4, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" }
+            }.AsQueryable();
+        //controller.Session["Favorites"]=Ses
+        var result = controller.AddFavorite(2);
+        Assert.AreEqual("The picture has been added to your favorites", result.Content);
+    }*/
     public void TestCleanup()
     {
         controller = null;
