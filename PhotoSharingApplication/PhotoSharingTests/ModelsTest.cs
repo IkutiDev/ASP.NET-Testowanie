@@ -8,7 +8,7 @@ using PhotoSharingTests.Doubles;
 using PhotoSharingApplication.Models;
 
 [TestClass]
-class ModelsTest
+public class ModelsTest
     {
     }
 
