@@ -6,9 +6,7 @@ using System.Web.Mvc;
 using System.Linq;
 using PhotoSharingTests.Doubles;
 using PhotoSharingApplication.Models;
-
 [TestClass]
-public class CommentControllerTest
+class GifControllerTest
     {
     }
-

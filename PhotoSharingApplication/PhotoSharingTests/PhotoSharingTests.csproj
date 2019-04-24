@@ -86,10 +86,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CommentControllerTest.cs" />
     <Compile Include="Doubles\FakeGifSharingContext.cs" />
     <Compile Include="Doubles\FakeHttpClasses.cs" />
     <Compile Include="Doubles\FakePhotoSharingContext.cs" />
+    <Compile Include="GifControllerTest.cs" />
     <Compile Include="ModelsTest.cs" />
     <Compile Include="PhotoControllerTest.cs" />
     <Compile Include="PhotoControllerTestMock.cs" />

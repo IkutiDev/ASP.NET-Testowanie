@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PhotoSharingApplication.Models
 {
-    interface IGifSharingContext
+    public interface IGifSharingContext
     {
         IQueryable<Gif> Gifs { get; }
         IQueryable<Comment> Comments { get; }
